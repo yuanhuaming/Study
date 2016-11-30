@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\bin\Debug\Pattern.Prototype.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\bin\Debug\Pattern.Prototype.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\bin\Debug\Pattern.Prototype.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\obj\Debug\Pattern.Prototype.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Prototype\obj\Debug\Pattern.Prototype.pdb
+E:\project\Pattern\Prototype\bin\Debug\Pattern.Prototype.XML
+E:\project\Pattern\Prototype\bin\Debug\Pattern.Prototype.dll
+E:\project\Pattern\Prototype\bin\Debug\Pattern.Prototype.pdb
+E:\project\Pattern\Prototype\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Prototype\obj\Debug\Pattern.Prototype.dll
+E:\project\Pattern\Prototype\obj\Debug\Pattern.Prototype.pdb

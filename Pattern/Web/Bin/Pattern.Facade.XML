@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Facade</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Facade.Message">
+            <summary>
+            Facade类
+            </summary>
+        </member>
+        <member name="M:Pattern.Facade.Message.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.Facade.Message.Get">
+            <summary>
+            获取Message
+            首先使用User类的Validate()方法验证用户是否合法
+            然后使用SqlMessage类的Get()方法获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Facade.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Facade.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Facade.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Facade.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Facade.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Facade.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Facade.User">
+            <summary>
+            用户相关类
+            </summary>
+        </member>
+        <member name="M:Pattern.Facade.User.Validate(System.String)">
+            <summary>
+            验证用户是否合法
+            </summary>
+            <param name="userId">UserId</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Prototype</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Prototype.DeepCopy">
+            <summary>
+            深拷贝
+            </summary>
+        </member>
+        <member name="M:Pattern.Prototype.DeepCopy.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.Prototype.DeepCopy.#ctor(Pattern.Prototype.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Prototype.DeepCopy.Clone">
+            <summary>
+            实现ICloneable的Clone()方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Prototype.DeepCopy.MessageModel">
+            <summary>
+            Message实体对象
+            </summary>
+        </member>
+        <member name="T:Pattern.Prototype.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Prototype.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Prototype.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Prototype.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Prototype.ShallowCopy">
+            <summary>
+            浅拷贝
+            </summary>
+        </member>
+        <member name="M:Pattern.Prototype.ShallowCopy.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.Prototype.ShallowCopy.Clone">
+            <summary>
+            实现ICloneable的Clone()方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Prototype.ShallowCopy.MessageModel">
+            <summary>
+            Message实体对象
+            </summary>
+        </member>
+    </members>
+</doc>

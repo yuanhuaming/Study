@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\State\bin\Debug\Pattern.State.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\State\bin\Debug\Pattern.State.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\State\bin\Debug\Pattern.State.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\State\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\State\obj\Debug\Pattern.State.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\State\obj\Debug\Pattern.State.pdb
+E:\project\Pattern\State\bin\Debug\Pattern.State.XML
+E:\project\Pattern\State\bin\Debug\Pattern.State.dll
+E:\project\Pattern\State\bin\Debug\Pattern.State.pdb
+E:\project\Pattern\State\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\State\obj\Debug\Pattern.State.dll
+E:\project\Pattern\State\obj\Debug\Pattern.State.pdb

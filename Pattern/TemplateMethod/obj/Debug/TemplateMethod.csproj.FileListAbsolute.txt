@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\obj\Debug\Pattern.TemplateMethod.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\TemplateMethod\obj\Debug\Pattern.TemplateMethod.pdb
+E:\project\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.XML
+E:\project\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.dll
+E:\project\Pattern\TemplateMethod\bin\Debug\Pattern.TemplateMethod.pdb
+E:\project\Pattern\TemplateMethod\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\TemplateMethod\obj\Debug\Pattern.TemplateMethod.dll
+E:\project\Pattern\TemplateMethod\obj\Debug\Pattern.TemplateMethod.pdb

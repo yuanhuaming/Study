@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.AbstractFactory</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.AbstractFactory.AbstractMessage">
+            <summary>
+            操作Message抽象类（AbstractProduct）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.AbstractMessage.Insert(Pattern.AbstractFactory.AbstractMessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="amm">AbstractMessageModel</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.AbstractMessageFactory">
+            <summary>
+            抽象Message工厂（AbstractFactory）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.AbstractMessageFactory.CreateMessageModel">
+            <summary>
+            创建MessageModel对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.AbstractFactory.AbstractMessageFactory.CreateMessage">
+            <summary>
+            创建Message对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.Message">
+            <summary>
+            Context类
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.Message.#ctor(Pattern.AbstractFactory.AbstractMessageFactory)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="factory">AbstractMessageFactory</param>
+        </member>
+        <member name="M:Pattern.AbstractFactory.Message.Insert(System.String,System.String,System.DateTime)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="userId">UserId</param>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.SqlMessageModel">
+            <summary>
+            SqlMessage实体类（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.SqlMessageModel.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.SqlMessageModel.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.AbstractFactory.SqlMessageModel.UserId">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="T:Pattern.AbstractFactory.AbstractMessageModel">
+            <summary>
+            抽象Message实体类（AbstractProduct）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.AbstractMessageModel.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.AbstractMessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.AbstractFactory.AbstractMessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.AbstractFactory.AbstractMessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="P:Pattern.AbstractFactory.AbstractMessageModel.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="T:Pattern.AbstractFactory.SqlMessage">
+            <summary>
+            Sql方式操作Message类（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.SqlMessage.Insert(Pattern.AbstractFactory.AbstractMessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="amm">AbstractMessageModel</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.SqlMessageFactory">
+            <summary>
+            SqlMessage工厂（ConcreteFactory）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.SqlMessageFactory.CreateMessageModel">
+            <summary>
+            创建SqlMessageModel对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.AbstractFactory.SqlMessageFactory.CreateMessage">
+            <summary>
+            创建SqlMessage对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.XmlMessageModel">
+            <summary>
+            XmlMessage实体类（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.XmlMessageModel.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.XmlMessageModel.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.AbstractFactory.XmlMessageModel.UserId">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="T:Pattern.AbstractFactory.XmlMessage">
+            <summary>
+            Xml方式操作Message类（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.XmlMessage.Insert(Pattern.AbstractFactory.AbstractMessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="amm">AbstractMessageModel</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.AbstractFactory.XmlMessageFactory">
+            <summary>
+            XmlMessage工厂（ConcreteFactory）
+            </summary>
+        </member>
+        <member name="M:Pattern.AbstractFactory.XmlMessageFactory.CreateMessageModel">
+            <summary>
+            创建XmlMessageModel对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.AbstractFactory.XmlMessageFactory.CreateMessage">
+            <summary>
+            创建XmlMessage对象
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\bin\Debug\Pattern.Adapter.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\bin\Debug\Pattern.Adapter.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\bin\Debug\Pattern.Adapter.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\obj\Debug\Pattern.Adapter.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Adapter\obj\Debug\Pattern.Adapter.pdb
+E:\project\Pattern\Adapter\bin\Debug\Pattern.Adapter.XML
+E:\project\Pattern\Adapter\bin\Debug\Pattern.Adapter.dll
+E:\project\Pattern\Adapter\bin\Debug\Pattern.Adapter.pdb
+E:\project\Pattern\Adapter\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Adapter\obj\Debug\Pattern.Adapter.dll
+E:\project\Pattern\Adapter\obj\Debug\Pattern.Adapter.pdb

@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Decorator</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Decorator.AbstractMessage">
+            <summary>
+            操作Message的抽象构件（Component）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.AbstractMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.AbstractMessage.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Decorator.CheckInputWrapper">
+            <summary>
+            扩展出输入验证的功能（ConcreteDecorator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.CheckInputWrapper.#ctor(Pattern.Decorator.AbstractMessage)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="abstractMessage">AbstractMessage</param>
+        </member>
+        <member name="M:Pattern.Decorator.CheckInputWrapper.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.CheckInputWrapper.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Decorator.CheckUserWrapper">
+            <summary>
+            扩展出用户验证的功能（ConcreteDecorator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.CheckUserWrapper.#ctor(Pattern.Decorator.AbstractMessage)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="abstractMessage">AbstractMessage</param>
+        </member>
+        <member name="M:Pattern.Decorator.CheckUserWrapper.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.CheckUserWrapper.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Decorator.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Decorator.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Decorator.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Decorator.AbstractMessageWrapper">
+            <summary>
+            装饰AbstractMessage（Decorator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.AbstractMessageWrapper.#ctor(Pattern.Decorator.AbstractMessage)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="abstractMessage">AbstractMessage</param>
+        </member>
+        <member name="M:Pattern.Decorator.AbstractMessageWrapper.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.AbstractMessageWrapper.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Decorator.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteComponent）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.SqlMessage.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Decorator.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteComponent）
+            </summary>
+        </member>
+        <member name="M:Pattern.Decorator.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Decorator.XmlMessage.Insert(Pattern.Decorator.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

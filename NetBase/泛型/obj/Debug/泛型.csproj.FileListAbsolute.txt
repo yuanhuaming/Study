@@ -1,0 +1,16 @@
+D:\project\Study\NetBase\泛型\bin\Debug\泛型.exe.config
+D:\project\Study\NetBase\泛型\bin\Debug\泛型.exe
+D:\project\Study\NetBase\泛型\bin\Debug\泛型.pdb
+D:\project\Study\NetBase\泛型\bin\Debug\Data.dll
+D:\project\Study\NetBase\泛型\bin\Debug\Data.pdb
+D:\project\Study\NetBase\泛型\obj\Debug\泛型.csprojResolveAssemblyReference.cache
+D:\project\Study\NetBase\泛型\obj\Debug\泛型.exe
+D:\project\Study\NetBase\泛型\obj\Debug\泛型.pdb
+E:\src\Study\NetBase\泛型\bin\Debug\泛型.exe.config
+E:\src\Study\NetBase\泛型\bin\Debug\泛型.exe
+E:\src\Study\NetBase\泛型\bin\Debug\泛型.pdb
+E:\src\Study\NetBase\泛型\bin\Debug\Data.dll
+E:\src\Study\NetBase\泛型\bin\Debug\Data.pdb
+E:\src\Study\NetBase\泛型\obj\Debug\泛型.csprojResolveAssemblyReference.cache
+E:\src\Study\NetBase\泛型\obj\Debug\泛型.exe
+E:\src\Study\NetBase\泛型\obj\Debug\泛型.pdb

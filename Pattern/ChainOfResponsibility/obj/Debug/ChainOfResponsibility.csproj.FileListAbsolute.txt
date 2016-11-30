@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\obj\Debug\Pattern.ChainOfResponsibility.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\ChainOfResponsibility\obj\Debug\Pattern.ChainOfResponsibility.pdb
+E:\project\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.XML
+E:\project\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.dll
+E:\project\Pattern\ChainOfResponsibility\bin\Debug\Pattern.ChainOfResponsibility.pdb
+E:\project\Pattern\ChainOfResponsibility\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\ChainOfResponsibility\obj\Debug\Pattern.ChainOfResponsibility.dll
+E:\project\Pattern\ChainOfResponsibility\obj\Debug\Pattern.ChainOfResponsibility.pdb

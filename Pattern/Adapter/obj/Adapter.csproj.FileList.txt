@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Adapter.dll
+bin\Debug\Pattern.Adapter.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Adapter.dll
+obj\Debug\Pattern.Adapter.pdb

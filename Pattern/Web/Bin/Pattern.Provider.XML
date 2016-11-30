@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Provider</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Provider.Message">
+            <summary>
+            暴露给客户端用的Message的类（Context）
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.Message.#cctor">
+            <summary>
+            静态构造函数，初始化
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.Message.Insert(Pattern.Provider.MessageModel)">
+            <summary>
+            插入信息
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.Message.Get">
+            <summary>
+            获取信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Provider.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Provider.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Provider.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Provider.MessageProvider">
+            <summary>
+            操作Message抽象类
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.MessageProvider.Insert(Pattern.Provider.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.MessageProvider.Get">
+            <summary>
+            获得Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Provider.MessageProviderCollection">
+            <summary>
+            Message的Provider集合类
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.MessageProviderCollection.Add(System.Configuration.Provider.ProviderBase)">
+            <summary>
+            向集合中添加提供程序。
+            </summary>
+            <param name="provider">要添加的提供程序。</param>
+        </member>
+        <member name="T:Pattern.Provider.MessageProviderConfigurationSection">
+            <summary>
+            Message的Provider的配置
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.MessageProviderConfigurationSection.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Pattern.Provider.MessageProviderConfigurationSection.DefaultProvider">
+            <summary>
+            Message的默认的Provider
+            </summary>
+        </member>
+        <member name="P:Pattern.Provider.MessageProviderConfigurationSection.Providers">
+            <summary>
+            Message的所有的Provider集合
+            </summary>
+        </member>
+        <member name="P:Pattern.Provider.MessageProviderConfigurationSection.Properties">
+            <summary>
+            Message的Provider的属性集合
+            创建 System.Configuration.ConfigurationPropertyCollection 的一个新实例。
+            </summary>
+        </member>
+        <member name="T:Pattern.Provider.XmlMessageProvider">
+            <summary>
+            Xmll方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.XmlMessageProvider.Insert(Pattern.Provider.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.XmlMessageProvider.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.XmlMessageProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            初始化提供程序。
+            </summary>
+            <param name="name">该提供程序的友好名称。</param>
+            <param name="config">名称/值对的集合，表示在配置中为该提供程序指定的、提供程序特定的属性。</param>
+        </member>
+        <member name="T:Pattern.Provider.SqlMessageProvider">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Provider.SqlMessageProvider.Insert(Pattern.Provider.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.SqlMessageProvider.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Provider.SqlMessageProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            初始化提供程序。
+            </summary>
+            <param name="name">该提供程序的友好名称。</param>
+            <param name="config">名称/值对的集合，表示在配置中为该提供程序指定的、提供程序特定的属性。</param>
+        </member>
+    </members>
+</doc>

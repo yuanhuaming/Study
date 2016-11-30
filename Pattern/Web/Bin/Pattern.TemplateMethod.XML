@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.TemplateMethod</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.TemplateMethod.AbstractMessageTemplate">
+            <summary>
+            模板方法抽象类
+            </summary>
+        </member>
+        <member name="F:Pattern.TemplateMethod.AbstractMessageTemplate._userId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="M:Pattern.TemplateMethod.AbstractMessageTemplate.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.TemplateMethod.AbstractMessageTemplate.ValidateUser">
+            <summary>
+            验证用户是否合法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.TemplateMethod.AbstractMessageTemplate.Get">
+            <summary>
+            获取MessageModel列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.TemplateMethod.AbstractMessageTemplate.TemplateMethodGet">
+            <summary>
+            模板方法：先验证用户是否合法，再获取MessageModel列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.TemplateMethod.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.TemplateMethod.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.TemplateMethod.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.TemplateMethod.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.TemplateMethod.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.TemplateMethod.SqlMessage.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.TemplateMethod.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.TemplateMethod.XmlMessage">
+            <summary>
+            Xml方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.TemplateMethod.XmlMessage.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.TemplateMethod.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

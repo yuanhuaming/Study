@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.State</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.State.AbstractMessageState">
+            <summary>
+            状态模式抽象类
+            </summary>
+        </member>
+        <member name="F:Pattern.State.AbstractMessageState._message">
+            <summary>
+            Context类型
+            </summary>
+        </member>
+        <member name="P:Pattern.State.AbstractMessageState.Message">
+            <summary>
+            Context类型属性
+            </summary>
+        </member>
+        <member name="M:Pattern.State.AbstractMessageState.StateChangeCheck">
+            <summary>
+            改变状态
+            </summary>
+        </member>
+        <member name="M:Pattern.State.AbstractMessageState.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.State.AbstractMessageState.Insert(Pattern.State.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.State.Message">
+            <summary>
+            Context类
+            </summary>
+        </member>
+        <member name="F:Pattern.State.Message._abstractMessageState">
+            <summary>
+            类型为状态模式抽象类的私有变量
+            </summary>
+        </member>
+        <member name="P:Pattern.State.Message.AbstractMessageState">
+            <summary>
+            类型为状态模式抽象类的属性
+            </summary>
+        </member>
+        <member name="F:Pattern.State.Message._userId">
+            <summary>
+            UserId私有变量
+            </summary>
+        </member>
+        <member name="P:Pattern.State.Message.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="M:Pattern.State.Message.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.State.Message.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.State.Message.Insert(Pattern.State.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.State.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.State.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.State.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.State.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.State.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.State.SqlMessage.#ctor(Pattern.State.Message)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">Context类型参数</param>
+        </member>
+        <member name="M:Pattern.State.SqlMessage.StateChangeCheck">
+            <summary>
+            改变状态
+            </summary>
+        </member>
+        <member name="M:Pattern.State.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.State.SqlMessage.Insert(Pattern.State.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.State.XmlMessage">
+            <summary>
+            Xml方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.State.XmlMessage.#ctor(Pattern.State.Message)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message">Context类型参数</param>
+        </member>
+        <member name="M:Pattern.State.XmlMessage.StateChangeCheck">
+            <summary>
+            改变状态
+            </summary>
+        </member>
+        <member name="M:Pattern.State.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.State.XmlMessage.Insert(Pattern.State.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

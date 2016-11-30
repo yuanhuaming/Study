@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.ChainOfResponsibility</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.ChainOfResponsibility.AbstractExecutor">
+            <summary>
+            抽象处理者(Handler)角色
+            </summary>
+        </member>
+        <member name="F:Pattern.ChainOfResponsibility.AbstractExecutor._executor">
+            <summary>
+            抽象处理者(Handler)角色
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.AbstractExecutor.SetSuccessor(Pattern.ChainOfResponsibility.AbstractExecutor)">
+            <summary>
+            设置责任链的上一级对象
+            </summary>
+            <param name="executor"></param>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.AbstractExecutor.Insert(Pattern.ChainOfResponsibility.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns>执行者；内容；时间</returns>
+        </member>
+        <member name="T:Pattern.ChainOfResponsibility.Employee">
+            <summary>
+            具体处理者(ConcreteHandler)角色
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.Employee.Insert(Pattern.ChainOfResponsibility.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns>执行者；内容；时间</returns>
+        </member>
+        <member name="T:Pattern.ChainOfResponsibility.Leader">
+            <summary>
+            抽象处理者(Handler)角色
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.Leader.Insert(Pattern.ChainOfResponsibility.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns>执行者；内容；时间</returns>
+        </member>
+        <member name="T:Pattern.ChainOfResponsibility.Manager">
+            <summary>
+            抽象处理者(Handler)角色
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.Manager.Insert(Pattern.ChainOfResponsibility.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns>执行者；内容；时间</returns>
+        </member>
+        <member name="T:Pattern.ChainOfResponsibility.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.ChainOfResponsibility.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.ChainOfResponsibility.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.ChainOfResponsibility.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.ChainOfResponsibility.SqlMessage.Insert(Pattern.ChainOfResponsibility.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\bin\Debug\Pattern.Command.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\bin\Debug\Pattern.Command.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\bin\Debug\Pattern.Command.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\obj\Debug\Pattern.Command.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Command\obj\Debug\Pattern.Command.pdb
+E:\project\Pattern\Command\bin\Debug\Pattern.Command.XML
+E:\project\Pattern\Command\bin\Debug\Pattern.Command.dll
+E:\project\Pattern\Command\bin\Debug\Pattern.Command.pdb
+E:\project\Pattern\Command\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Command\obj\Debug\Pattern.Command.dll
+E:\project\Pattern\Command\obj\Debug\Pattern.Command.pdb

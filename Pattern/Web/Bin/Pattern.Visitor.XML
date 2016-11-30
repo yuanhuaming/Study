@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Visitor</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Visitor.AbstractElement">
+            <summary>
+            抽象元素（Element）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.AbstractElement.Accept(Pattern.Visitor.AbstractVisitor)">
+            <summary>
+            执行抽象访问者的Visit()方法（从而执行抽象元素的方法）
+            </summary>
+            <param name="abstractVisitor">抽象访问者</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.GetVisitor">
+            <summary>
+            Get访问者（ConcreteVisitor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.GetVisitor.Visit(Pattern.Visitor.AbstractElement)">
+            <summary>
+            执行Message的Get()方法
+            </summary>
+            <param name="abstractElement">抽象元素</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.InsertVisitor">
+            <summary>
+            Insert访问者（ConcreteVisitor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.InsertVisitor.Visit(Pattern.Visitor.AbstractElement)">
+            <summary>
+            执行Message的Insert()方法
+            </summary>
+            <param name="abstractElement">抽象元素</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.AbstractVisitor">
+            <summary>
+            抽象访问者（Visitor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.AbstractVisitor.Visit(Pattern.Visitor.AbstractElement)">
+            <summary>
+            执行抽象元素的方法
+            </summary>
+            <param name="abstractElement">抽象元素</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.Message">
+            <summary>
+            操作Message抽象类（Element）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.Message.#ctor(Pattern.Visitor.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="P:Pattern.Visitor.Message.MessageModel">
+            <summary>
+            Message实体对象
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.Message.Accept(Pattern.Visitor.AbstractVisitor)">
+            <summary>
+            执行抽象访问者的Visit()方法（从而执行抽象元素的方法）
+            </summary>
+            <param name="abstractVisitor">抽象访问者</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Visitor.Message.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Visitor.Message.Insert">
+            <summary>
+            插入Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Visitor.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Visitor.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Visitor.Messages">
+            <summary>
+            Message集合（ObjectStructure）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.Messages.Attach(Pattern.Visitor.Message)">
+            <summary>
+            添加一个Message对象
+            </summary>
+            <param name="message">Message对象</param>
+        </member>
+        <member name="M:Pattern.Visitor.Messages.Detach(Pattern.Visitor.Message)">
+            <summary>
+            移除一个Message对象
+            </summary>
+            <param name="message">Message对象</param>
+        </member>
+        <member name="M:Pattern.Visitor.Messages.Accept(Pattern.Visitor.AbstractVisitor)">
+            <summary>
+            执行集合内所有Message对象的Accept()方法（执行抽象访问者的Visit()方法（从而执行抽象元素的方法））
+            </summary>
+            <param name="abstractVisitor">抽象访问者</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteElement）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.SqlMessage.#ctor(Pattern.Visitor.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Visitor.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Visitor.SqlMessage.Insert">
+            <summary>
+            插入Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Visitor.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteElement）
+            </summary>
+        </member>
+        <member name="M:Pattern.Visitor.XmlMessage.#ctor(Pattern.Visitor.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Visitor.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Visitor.XmlMessage.Insert">
+            <summary>
+            插入Message
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

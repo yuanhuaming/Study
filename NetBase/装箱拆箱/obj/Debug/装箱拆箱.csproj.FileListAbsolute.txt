@@ -1,0 +1,12 @@
+D:\project\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.exe.config
+D:\project\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.exe
+D:\project\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.pdb
+D:\project\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.exe
+D:\project\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.pdb
+D:\project\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.csprojResolveAssemblyReference.cache
+E:\src\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.exe.config
+E:\src\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.exe
+E:\src\Study\NetBase\装箱拆箱\bin\Debug\装箱拆箱.pdb
+E:\src\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.csprojResolveAssemblyReference.cache
+E:\src\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.exe
+E:\src\Study\NetBase\装箱拆箱\obj\Debug\装箱拆箱.pdb

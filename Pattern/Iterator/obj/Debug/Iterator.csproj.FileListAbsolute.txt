@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\bin\Debug\Pattern.Iterator.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\bin\Debug\Pattern.Iterator.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\bin\Debug\Pattern.Iterator.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\obj\Debug\Pattern.Iterator.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Iterator\obj\Debug\Pattern.Iterator.pdb
+E:\project\Pattern\Iterator\bin\Debug\Pattern.Iterator.XML
+E:\project\Pattern\Iterator\bin\Debug\Pattern.Iterator.dll
+E:\project\Pattern\Iterator\bin\Debug\Pattern.Iterator.pdb
+E:\project\Pattern\Iterator\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Iterator\obj\Debug\Pattern.Iterator.dll
+E:\project\Pattern\Iterator\obj\Debug\Pattern.Iterator.pdb

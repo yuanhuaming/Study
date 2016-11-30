@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Iterator</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Iterator.Collection">
+            <summary>
+            集合（ConcreteAggregate）
+            </summary>
+        </member>
+        <member name="M:Pattern.Iterator.Collection.CreateIterator">
+            <summary>
+            创建迭代器对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Iterator.Collection.Count">
+            <summary>
+            集合内的对象总数
+            </summary>
+        </member>
+        <member name="P:Pattern.Iterator.Collection.Item(System.Int32)">
+            <summary>
+            索引器
+            </summary>
+            <param name="index">index</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Iterator.ICollection">
+            <summary>
+            集合接口（Aggregate）
+            </summary>
+        </member>
+        <member name="M:Pattern.Iterator.ICollection.CreateIterator">
+            <summary>
+            创建迭代器对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Iterator.IIterator">
+            <summary>
+            迭代器接口（IIterator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Iterator.IIterator.First">
+            <summary>
+            第一个对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Iterator.IIterator.Next">
+            <summary>
+            下一个对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Iterator.IIterator.CurrentMessageModel">
+            <summary>
+            当前对象
+            </summary>
+        </member>
+        <member name="P:Pattern.Iterator.IIterator.IsDone">
+            <summary>
+            是否迭代完毕
+            </summary>
+        </member>
+        <member name="T:Pattern.Iterator.Iterator">
+            <summary>
+            迭代器（Iterator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Iterator.Iterator.#ctor(Pattern.Iterator.Collection)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="collection"></param>
+        </member>
+        <member name="M:Pattern.Iterator.Iterator.First">
+            <summary>
+            第一个对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Iterator.Iterator.Next">
+            <summary>
+            下一个对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Iterator.Iterator.CurrentMessageModel">
+            <summary>
+            当前对象
+            </summary>
+        </member>
+        <member name="P:Pattern.Iterator.Iterator.IsDone">
+            <summary>
+            是否迭代完毕
+            </summary>
+        </member>
+        <member name="P:Pattern.Iterator.Iterator.Step">
+            <summary>
+            步长
+            </summary>
+        </member>
+        <member name="T:Pattern.Iterator.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Iterator.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Iterator.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Iterator.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+    </members>
+</doc>

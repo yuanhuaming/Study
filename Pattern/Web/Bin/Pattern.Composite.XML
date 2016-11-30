@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Composite</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Composite.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Composite.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Composite.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Composite.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Composite.MessageModelComponent">
+            <summary>
+            抽象Message实体构件（Component）
+            </summary>
+        </member>
+        <member name="F:Pattern.Composite.MessageModelComponent._messageModel">
+            <summary>
+            Message实体对象
+            </summary>
+        </member>
+        <member name="F:Pattern.Composite.MessageModelComponent._name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComponent.#ctor(System.String,Pattern.Composite.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">名称</param>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComponent.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComponent.Add(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            添加
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComponent.Remove(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            删除
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComponent.GetData(System.Int32)">
+            <summary>
+            获取
+            </summary>
+            <param name="indent">缩进数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Composite.MessageModelComposite">
+            <summary>
+            Message实体树枝（Composite）
+            </summary>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComposite.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComposite.Add(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            添加
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComposite.Remove(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            删除
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelComposite.GetData(System.Int32)">
+            <summary>
+            获取
+            </summary>
+            <param name="indent">缩进数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Composite.MessageModelLeaf">
+            <summary>
+            Message实体树叶（Leaf）
+            </summary>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelLeaf.#ctor(System.String,Pattern.Composite.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">名称</param>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelLeaf.Add(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            添加
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelLeaf.Remove(Pattern.Composite.MessageModelComponent)">
+            <summary>
+            删除
+            </summary>
+            <param name="mmc">MessageModelComponent</param>
+        </member>
+        <member name="M:Pattern.Composite.MessageModelLeaf.GetData(System.Int32)">
+            <summary>
+            获取
+            </summary>
+            <param name="indent">缩进数</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

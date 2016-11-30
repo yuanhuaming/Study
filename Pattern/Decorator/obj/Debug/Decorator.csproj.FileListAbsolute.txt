@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\bin\Debug\Pattern.Decorator.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\bin\Debug\Pattern.Decorator.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\bin\Debug\Pattern.Decorator.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\obj\Debug\Pattern.Decorator.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Decorator\obj\Debug\Pattern.Decorator.pdb
+E:\project\Pattern\Decorator\bin\Debug\Pattern.Decorator.XML
+E:\project\Pattern\Decorator\bin\Debug\Pattern.Decorator.dll
+E:\project\Pattern\Decorator\bin\Debug\Pattern.Decorator.pdb
+E:\project\Pattern\Decorator\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Decorator\obj\Debug\Pattern.Decorator.dll
+E:\project\Pattern\Decorator\obj\Debug\Pattern.Decorator.pdb

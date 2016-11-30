@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Strategy</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Strategy.IMessageStrategy">
+            <summary>
+            策略接口
+            </summary>
+        </member>
+        <member name="M:Pattern.Strategy.IMessageStrategy.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Strategy.IMessageStrategy.Insert(Pattern.Strategy.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Strategy.Message">
+            <summary>
+            Context类
+            </summary>
+        </member>
+        <member name="F:Pattern.Strategy.Message._strategy">
+            <summary>
+            声明一个IMessageStrategy类型
+            </summary>
+        </member>
+        <member name="M:Pattern.Strategy.Message.#ctor(Pattern.Strategy.IMessageStrategy)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="strategy">具体算法</param>
+        </member>
+        <member name="M:Pattern.Strategy.Message.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Strategy.Message.Insert(Pattern.Strategy.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Strategy.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Strategy.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Strategy.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Strategy.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Strategy.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Strategy.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Strategy.SqlMessage.Insert(Pattern.Strategy.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Strategy.XmlMessage">
+            <summary>
+            Xml方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Strategy.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Strategy.XmlMessage.Insert(Pattern.Strategy.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

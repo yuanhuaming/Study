@@ -1,0 +1,5 @@
+bin\Debug\Pattern.State.dll
+bin\Debug\Pattern.State.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.State.dll
+obj\Debug\Pattern.State.pdb

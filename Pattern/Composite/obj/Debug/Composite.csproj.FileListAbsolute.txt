@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\bin\Debug\Pattern.Composite.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\bin\Debug\Pattern.Composite.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\bin\Debug\Pattern.Composite.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\obj\Debug\Pattern.Composite.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Composite\obj\Debug\Pattern.Composite.pdb
+E:\project\Pattern\Composite\bin\Debug\Pattern.Composite.XML
+E:\project\Pattern\Composite\bin\Debug\Pattern.Composite.dll
+E:\project\Pattern\Composite\bin\Debug\Pattern.Composite.pdb
+E:\project\Pattern\Composite\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Composite\obj\Debug\Pattern.Composite.dll
+E:\project\Pattern\Composite\obj\Debug\Pattern.Composite.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\bin\Debug\Pattern.Builder.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\bin\Debug\Pattern.Builder.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\bin\Debug\Pattern.Builder.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\obj\Debug\Pattern.Builder.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Builder\obj\Debug\Pattern.Builder.pdb
+E:\project\Pattern\Builder\bin\Debug\Pattern.Builder.XML
+E:\project\Pattern\Builder\bin\Debug\Pattern.Builder.dll
+E:\project\Pattern\Builder\bin\Debug\Pattern.Builder.pdb
+E:\project\Pattern\Builder\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Builder\obj\Debug\Pattern.Builder.dll
+E:\project\Pattern\Builder\obj\Debug\Pattern.Builder.pdb

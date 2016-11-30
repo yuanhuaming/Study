@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Builder</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Builder.AbstractMessageBuilder">
+            <summary>
+            抽象Message建造者（Builder）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.AbstractMessageBuilder.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type">产品类型</param>
+        </member>
+        <member name="F:Pattern.Builder.AbstractMessageBuilder._operation">
+            <summary>
+            操作（Product）
+            </summary>
+        </member>
+        <member name="P:Pattern.Builder.AbstractMessageBuilder.Operation">
+            <summary>
+            操作（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.AbstractMessageBuilder.BuilderInsert(Pattern.Builder.MessageModel)">
+            <summary>
+            建造插入方法
+            </summary>
+            <param name="mm"></param>
+        </member>
+        <member name="M:Pattern.Builder.AbstractMessageBuilder.BuilderGet">
+            <summary>
+            建造获取方法
+            </summary>
+        </member>
+        <member name="T:Pattern.Builder.Message">
+            <summary>
+            指导者（Director）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.Message.Construct(Pattern.Builder.AbstractMessageBuilder,Pattern.Builder.MessageModel)">
+            <summary>
+            调用具体建造者角色以创建产品对象
+            </summary>
+            <param name="messageBuilder">AbstractMessageBuilder</param>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="T:Pattern.Builder.Operation">
+            <summary>
+            操作（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.Operation.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type">产品类型</param>
+        </member>
+        <member name="P:Pattern.Builder.Operation.Item(System.String)">
+            <summary>
+            索引器
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Builder.Operation.GetResult">
+            <summary>
+            获得结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Builder.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Builder.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Builder.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Builder.SqlMessage">
+            <summary>
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Builder.SqlMessage.Insert(Pattern.Builder.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Builder.SqlMessageBuilder">
+            <summary>
+            SqlMessage建造者（ConcreteBuilder）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.SqlMessageBuilder.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.SqlMessageBuilder.BuilderInsert(Pattern.Builder.MessageModel)">
+            <summary>
+            建造Sql插入方法
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Builder.SqlMessageBuilder.BuilderGet">
+            <summary>
+            建造Sql获取方法
+            </summary>
+        </member>
+        <member name="T:Pattern.Builder.XmlMessage">
+            <summary>
+            Xml方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Builder.XmlMessage.Insert(Pattern.Builder.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Builder.XmlMessageBuilder">
+            <summary>
+            XmlMessage建造者（ConcreteBuilder）
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.XmlMessageBuilder.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Pattern.Builder.XmlMessageBuilder.BuilderInsert(Pattern.Builder.MessageModel)">
+            <summary>
+            建造Xml插入方法
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Builder.XmlMessageBuilder.BuilderGet">
+            <summary>
+            建造Xml获取方法
+            </summary>
+        </member>
+    </members>
+</doc>

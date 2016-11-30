@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Memento.dll
+bin\Debug\Pattern.Memento.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Memento.dll
+obj\Debug\Pattern.Memento.pdb

@@ -1,0 +1,12 @@
+D:\project\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.exe.config
+D:\project\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.exe
+D:\project\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.pdb
+D:\project\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.exe
+D:\project\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.pdb
+D:\project\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.csprojResolveAssemblyReference.cache
+E:\src\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.exe.config
+E:\src\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.exe
+E:\src\Study\NetBase\TaskDemo\bin\Debug\TaskDemo.pdb
+E:\src\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.csprojResolveAssemblyReference.cache
+E:\src\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.exe
+E:\src\Study\NetBase\TaskDemo\obj\Debug\TaskDemo.pdb

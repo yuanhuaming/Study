@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.FactoryMethod</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.FactoryMethod.AbstractMessage">
+            <summary>
+            操作Message抽象类（Product）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.AbstractMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.FactoryMethod.AbstractMessage.Insert(Pattern.FactoryMethod.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.FactoryMethod.AbstractMessageFactory">
+            <summary>
+            抽象Message工厂（Creator）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.AbstractMessageFactory.CreateMessage">
+            <summary>
+            工厂方法
+            </summary>
+            <returns>AbstractMessage</returns>
+        </member>
+        <member name="T:Pattern.FactoryMethod.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.FactoryMethod.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.FactoryMethod.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.FactoryMethod.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteProduct）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.FactoryMethod.SqlMessage.Insert(Pattern.FactoryMethod.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.FactoryMethod.SqlMessageFactory">
+            <summary>
+            SqlMessage工厂（ConcreteCreator）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.SqlMessageFactory.CreateMessage">
+            <summary>
+            实现工厂方法，返回SqlMessage对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.FactoryMethod.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteProduct）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.FactoryMethod.XmlMessage.Insert(Pattern.FactoryMethod.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.FactoryMethod.XmlMessageFactory">
+            <summary>
+            XmlMessage工厂（ConcreteCreator）
+            </summary>
+        </member>
+        <member name="M:Pattern.FactoryMethod.XmlMessageFactory.CreateMessage">
+            <summary>
+            实现工厂方法，返回XmlMessage对象
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

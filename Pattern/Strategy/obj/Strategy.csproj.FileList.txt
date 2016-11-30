@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Strategy.dll
+bin\Debug\Pattern.Strategy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Strategy.dll
+obj\Debug\Pattern.Strategy.pdb

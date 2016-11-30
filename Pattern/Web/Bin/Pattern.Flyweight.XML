@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Flyweight</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Flyweight.AbstractMessage">
+            <summary>
+            操作Message抽象类（Flyweight）
+            </summary>
+        </member>
+        <member name="M:Pattern.Flyweight.AbstractMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Flyweight.AbstractMessage.Insert(Pattern.Flyweight.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Flyweight.MessageFactory">
+            <summary>
+            Message工厂（FlyweightFactory）
+            </summary>
+        </member>
+        <member name="M:Pattern.Flyweight.MessageFactory.GetMessageObject(System.String)">
+            <summary>
+            获取Message对象
+            </summary>
+            <param name="key">key</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Flyweight.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Flyweight.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Flyweight.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Flyweight.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Flyweight.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteFlyweight）
+            </summary>
+        </member>
+        <member name="M:Pattern.Flyweight.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Flyweight.SqlMessage.Insert(Pattern.Flyweight.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Flyweight.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteFlyweight）
+            </summary>
+        </member>
+        <member name="M:Pattern.Flyweight.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Flyweight.XmlMessage.Insert(Pattern.Flyweight.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

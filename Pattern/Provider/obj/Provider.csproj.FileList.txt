@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Provider.dll
+bin\Debug\Pattern.Provider.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Provider.dll
+obj\Debug\Pattern.Provider.pdb

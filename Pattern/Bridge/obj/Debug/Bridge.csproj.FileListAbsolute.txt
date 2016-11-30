@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\bin\Debug\Pattern.Bridge.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\bin\Debug\Pattern.Bridge.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\bin\Debug\Pattern.Bridge.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\obj\Debug\Pattern.Bridge.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Bridge\obj\Debug\Pattern.Bridge.pdb
+E:\project\Pattern\Bridge\bin\Debug\Pattern.Bridge.XML
+E:\project\Pattern\Bridge\bin\Debug\Pattern.Bridge.dll
+E:\project\Pattern\Bridge\bin\Debug\Pattern.Bridge.pdb
+E:\project\Pattern\Bridge\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Bridge\obj\Debug\Pattern.Bridge.dll
+E:\project\Pattern\Bridge\obj\Debug\Pattern.Bridge.pdb

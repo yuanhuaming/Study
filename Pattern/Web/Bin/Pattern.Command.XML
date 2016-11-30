@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Command</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Command.Action">
+            <summary>
+            enum
+            定义操作的两种方法Insert和Delete
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.Action.Insert">
+            <summary>
+            Insert
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.Action.Delete">
+            <summary>
+            Delete
+            </summary>
+        </member>
+        <member name="T:Pattern.Command.ICommand">
+            <summary>
+            命令（Command）角色
+            </summary>
+        </member>
+        <member name="M:Pattern.Command.ICommand.Execute">
+            <summary>
+            执行
+            </summary>
+            <returns>操作的方法及操作的信息</returns>
+        </member>
+        <member name="M:Pattern.Command.ICommand.UnExecute">
+            <summary>
+            取消执行
+            </summary>
+            <returns>操作的方法及操作的信息</returns>
+        </member>
+        <member name="T:Pattern.Command.Message">
+            <summary>
+            请求者（Invoker）角色
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.Message._listCommand">
+            <summary>
+            命令集合（保存每次操作）
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.Message.current">
+            <summary>
+            命令集合中当前要执行的命令的索引
+            </summary>
+        </member>
+        <member name="M:Pattern.Command.Message.Do(Pattern.Command.Action,Pattern.Command.MessageModel)">
+            <summary>
+            执行Sql
+            </summary>
+            <param name="action">操作的方法</param>
+            <param name="mm">Message实体对象</param>
+            <returns>操作的方法及操作的信息</returns>
+        </member>
+        <member name="M:Pattern.Command.Message.Undo(System.Int32)">
+            <summary>
+            撤销
+            </summary>
+            <param name="levels">执行撤销操作的次数</param>
+            <returns>操作的方法及操作的信息（用空格分开多条记录）</returns>
+        </member>
+        <member name="M:Pattern.Command.Message.Redo(System.Int32)">
+            <summary>
+            重复
+            </summary>
+            <param name="levels">执行重复操作的次数</param>
+            <returns>操作的方法及操作的信息（用空格分开多条记录）</returns>
+        </member>
+        <member name="T:Pattern.Command.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Command.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Command.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Command.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Command.SqlMessage">
+            <summary>
+            接收者（Receiver）角色
+            Sql方式操作Message
+            </summary>
+        </member>
+        <member name="M:Pattern.Command.SqlMessage.Operation(Pattern.Command.Action,Pattern.Command.MessageModel)">
+            <summary>
+            操作
+            </summary>
+            <param name="action">操作的方法</param>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Command.SqlMessage.Insert(Pattern.Command.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Command.SqlMessage.Delete(Pattern.Command.MessageModel)">
+            <summary>
+            删除Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="T:Pattern.Command.SqlMessageCommand">
+            <summary>
+            具体命令（ConcreteCommand）角色
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.SqlMessageCommand._action">
+            <summary>
+            操作的方法
+            </summary>
+        </member>
+        <member name="F:Pattern.Command.SqlMessageCommand._mm">
+            <summary>
+            Message实体对象
+            </summary>
+        </member>
+        <member name="M:Pattern.Command.SqlMessageCommand.#ctor(Pattern.Command.Action,Pattern.Command.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="action">操作的方法</param>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Command.SqlMessageCommand.Execute">
+            <summary>
+            执行
+            </summary>
+            <returns>操作的方法及操作的信息</returns>
+        </member>
+        <member name="M:Pattern.Command.SqlMessageCommand.UnExecute">
+            <summary>
+            取消执行（调用一个方法，以决定取消执行的算法）
+            </summary>
+            <returns>操作的方法及操作的信息</returns>
+        </member>
+        <member name="M:Pattern.Command.SqlMessageCommand.GetUndoAction(Pattern.Command.Action)">
+            <summary>
+            获得取消执行的算法
+            </summary>
+            <param name="action">操作的方法</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

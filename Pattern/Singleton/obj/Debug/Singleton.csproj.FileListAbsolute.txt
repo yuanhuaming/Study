@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\bin\Debug\Pattern.Singleton.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\bin\Debug\Pattern.Singleton.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\bin\Debug\Pattern.Singleton.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\obj\Debug\Pattern.Singleton.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Singleton\obj\Debug\Pattern.Singleton.pdb
+E:\project\Pattern\Singleton\bin\Debug\Pattern.Singleton.XML
+E:\project\Pattern\Singleton\bin\Debug\Pattern.Singleton.dll
+E:\project\Pattern\Singleton\bin\Debug\Pattern.Singleton.pdb
+E:\project\Pattern\Singleton\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Singleton\obj\Debug\Pattern.Singleton.dll
+E:\project\Pattern\Singleton\obj\Debug\Pattern.Singleton.pdb

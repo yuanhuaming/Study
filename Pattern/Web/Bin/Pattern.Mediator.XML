@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Mediator</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Mediator.AbstractMessage">
+            <summary>
+            操作Message抽象类（Colleague）
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.AbstractMessage.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="P:Pattern.Mediator.AbstractMessage.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Pattern.Mediator.AbstractMessage.AbstractMessageMediator">
+            <summary>
+            中介者
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.AbstractMessage.Send(System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            发送Message（由客户端调用）
+            </summary>
+            <param name="to">发送到UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Mediator.AbstractMessage.Insert(System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            接受Message（由中介者调用）
+            </summary>
+            <param name="from">来自UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Mediator.AbstractMessageMediator">
+            <summary>
+            抽象中介者（Mediator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.AbstractMessageMediator.Register(Pattern.Mediator.AbstractMessage)">
+            <summary>
+            注册一个操作Message的对象
+            </summary>
+            <param name="AbstractMessage">AbstractMessage</param>
+        </member>
+        <member name="M:Pattern.Mediator.AbstractMessageMediator.Send(System.String,System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            发送Message
+            </summary>
+            <param name="from">来自UserId</param>
+            <param name="to">发送到UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Mediator.MessageMediator">
+            <summary>
+            中介者（ConcreteMediator）
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.MessageMediator.Register(Pattern.Mediator.AbstractMessage)">
+            <summary>
+            注册一个操作Message的对象
+            </summary>
+            <param name="abstractMessage">AbstractMessage</param>
+        </member>
+        <member name="M:Pattern.Mediator.MessageMediator.Send(System.String,System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            发送Message
+            </summary>
+            <param name="from">来自UserId</param>
+            <param name="to">发送到UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Mediator.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Mediator.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Mediator.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Mediator.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteColleague）
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.SqlMessage.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.Mediator.SqlMessage.Insert(System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            接受Message（由中介者调用）
+            </summary>
+            <param name="from">来自UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Mediator.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteColleague）
+            </summary>
+        </member>
+        <member name="M:Pattern.Mediator.XmlMessage.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="userId">UserId</param>
+        </member>
+        <member name="M:Pattern.Mediator.XmlMessage.Insert(System.String,Pattern.Mediator.MessageModel)">
+            <summary>
+            接受Message（由中介者调用）
+            </summary>
+            <param name="from">来自UserId</param>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

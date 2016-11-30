@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Observer</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Observer.IMessage">
+            <summary>
+            操作Message的接口（Observer）
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.IMessage.Insert(Pattern.Observer.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Observer.AbstractMessageSubject">
+            <summary>
+            抽象Message主题（Subject）
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.AbstractMessageSubject.#ctor(Pattern.Observer.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="M:Pattern.Observer.AbstractMessageSubject.Attach(Pattern.Observer.IMessage)">
+            <summary>
+            添加一个实现IMessage接口的对象
+            </summary>
+            <param name="m">实现IMessage接口的对象</param>
+        </member>
+        <member name="M:Pattern.Observer.AbstractMessageSubject.Detach(Pattern.Observer.IMessage)">
+            <summary>
+            移除一个实现IMessage接口的对象
+            </summary>
+            <param name="m">实现IMessage接口的对象</param>
+        </member>
+        <member name="M:Pattern.Observer.AbstractMessageSubject.Notify">
+            <summary>
+            通知所有观察者
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Pattern.Observer.AbstractMessageSubject.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Observer.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Observer.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Observer.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Observer.MessageSubject">
+            <summary>
+            Message主题（ConcreteSubject）
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.MessageSubject.#ctor(Pattern.Observer.MessageModel)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mm">Message实体对象</param>
+        </member>
+        <member name="T:Pattern.Observer.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteObserver）
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.SqlMessage.Insert(Pattern.Observer.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Observer.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteObserver）
+            </summary>
+        </member>
+        <member name="M:Pattern.Observer.XmlMessage.Insert(Pattern.Observer.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

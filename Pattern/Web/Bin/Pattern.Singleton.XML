@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Singleton</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Singleton.Singleton`1">
+            <summary>
+            泛型实现单例模式
+            </summary>
+            <typeparam name="T">需要实现单例的类</typeparam>
+        </member>
+        <member name="P:Pattern.Singleton.Singleton`1.Instance">
+            <summary>
+            返回类的实例
+            </summary>
+        </member>
+    </members>
+</doc>

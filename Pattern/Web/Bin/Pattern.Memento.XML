@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Memento</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Memento.MessageModelCaretaker">
+            <summary>
+            Memento管理者（Caretaker）
+            </summary>
+        </member>
+        <member name="P:Pattern.Memento.MessageModelCaretaker.MessageModel">
+            <summary>
+            Message实体对象（Memento）
+            </summary>
+        </member>
+        <member name="T:Pattern.Memento.MessageModel">
+            <summary>
+            Message实体类（Memento）
+            </summary>
+        </member>
+        <member name="M:Pattern.Memento.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Memento.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Memento.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Memento.SqlMessage">
+            <summary>
+            Sql方式操作Message（Originator）
+            </summary>
+        </member>
+        <member name="P:Pattern.Memento.SqlMessage.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Memento.SqlMessage.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="M:Pattern.Memento.SqlMessage.Insert(Pattern.Memento.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Memento.SqlMessage.SaveMemento">
+            <summary>
+            保存Memento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Memento.SqlMessage.RestoreMemento(Pattern.Memento.MessageModel)">
+            <summary>
+            恢复Memento
+            </summary>
+            <param name="mm"></param>
+        </member>
+    </members>
+</doc>

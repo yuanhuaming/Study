@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Interpreter.dll
+bin\Debug\Pattern.Interpreter.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Interpreter.dll
+obj\Debug\Pattern.Interpreter.pdb

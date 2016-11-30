@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pattern.Bridge</name>
+    </assembly>
+    <members>
+        <member name="T:Pattern.Bridge.AbstractMessage">
+            <summary>
+            操作Message（Implementor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.AbstractMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Bridge.AbstractMessage.Insert(Pattern.Bridge.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Bridge.Message">
+            <summary>
+            操作Message（Abstraction）
+            </summary>
+        </member>
+        <member name="P:Pattern.Bridge.Message.AbstractMessage">
+            <summary>
+            操作Message（Implementor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.Message.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Bridge.Message.Insert(Pattern.Bridge.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Bridge.MessageModel">
+            <summary>
+            Message实体类
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.MessageModel.#ctor(System.String,System.DateTime)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">Message内容</param>
+            <param name="pt">Message发布时间</param>
+        </member>
+        <member name="P:Pattern.Bridge.MessageModel.Message">
+            <summary>
+            Message内容
+            </summary>
+        </member>
+        <member name="P:Pattern.Bridge.MessageModel.PublishTime">
+            <summary>
+            Message发布时间
+            </summary>
+        </member>
+        <member name="T:Pattern.Bridge.MyMessage">
+            <summary>
+            操作Message（RefinedAbstraction）
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.MyMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Bridge.SqlMessage">
+            <summary>
+            Sql方式操作Message（ConcreteImplementor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.SqlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Bridge.SqlMessage.Insert(Pattern.Bridge.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:Pattern.Bridge.XmlMessage">
+            <summary>
+            Xml方式操作Message（ConcreteImplementor）
+            </summary>
+        </member>
+        <member name="M:Pattern.Bridge.XmlMessage.Get">
+            <summary>
+            获取Message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Pattern.Bridge.XmlMessage.Insert(Pattern.Bridge.MessageModel)">
+            <summary>
+            插入Message
+            </summary>
+            <param name="mm">Message实体对象</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

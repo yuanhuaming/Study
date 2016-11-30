@@ -1,0 +1,5 @@
+bin\Debug\Pattern.Mediator.dll
+bin\Debug\Pattern.Mediator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pattern.Mediator.dll
+obj\Debug\Pattern.Mediator.pdb

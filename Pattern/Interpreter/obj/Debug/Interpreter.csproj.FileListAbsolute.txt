@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.XML
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.pdb
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\obj\Debug\Pattern.Interpreter.dll
+C:\Documents and Settings\Administrator\桌面\Pattern\Interpreter\obj\Debug\Pattern.Interpreter.pdb
+E:\project\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.XML
+E:\project\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.dll
+E:\project\Pattern\Interpreter\bin\Debug\Pattern.Interpreter.pdb
+E:\project\Pattern\Interpreter\obj\Debug\ResolveAssemblyReference.cache
+E:\project\Pattern\Interpreter\obj\Debug\Pattern.Interpreter.dll
+E:\project\Pattern\Interpreter\obj\Debug\Pattern.Interpreter.pdb

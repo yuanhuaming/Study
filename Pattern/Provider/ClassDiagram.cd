@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Context">
+    <Position X="3.568" Y="2.976" Height="0.268" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Message的实体类">
+    <Position X="5.302" Y="2.345" Height="0.268" Width="1.148" />
+  </Comment>
+  <Comment CommentText="操作Message抽象类">
+    <Position X="4.573" Y="5.709" Height="0.281" Width="1.283" />
+  </Comment>
+  <Comment CommentText="Sql方式操作Message">
+    <Position X="1.583" Y="8.667" Height="0.268" Width="1.346" />
+  </Comment>
+  <Comment CommentText="Xml方式操作Message">
+    <Position X="4.802" Y="8.666" Height="0.268" Width="1.388" />
+  </Comment>
+  <Comment CommentText="Message的Provider集合类">
+    <Position X="1.031" Y="11.688" Height="0.268" Width="1.658" />
+  </Comment>
+  <Comment CommentText="Message的Provider的配置">
+    <Position X="5.031" Y="13.146" Height="0.268" Width="1.658" />
+  </Comment>
+  <Class Name="Pattern.Provider.Message">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAEEAAAAEAQBAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.MessageModel">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>MessageModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.MessageProvider">
+    <Position X="2.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.MessageProviderCollection">
+    <Position X="0.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProviderCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.MessageProviderConfigurationSection">
+    <Position X="3.25" Y="10.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAEEAAAAAAAAAAAAAAAAAAAAAAIAAACEAA=</HashCode>
+      <FileName>MessageProviderConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.SqlMessageProvider">
+    <Position X="0.5" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQBAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>SqlMessageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pattern.Provider.XmlMessageProvider">
+    <Position X="3.75" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQBAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>XmlMessageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Configuration.Provider.ProviderBase" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Configuration.ConfigurationSection" Collapsed="true">
+    <Position X="4" Y="9.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Configuration.Provider.ProviderCollection" Collapsed="true">
+    <Position X="0.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
