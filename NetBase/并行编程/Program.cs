@@ -25,7 +25,16 @@ class Program
     }
 
 
+    public static void Invoke(params Action[] actions)
+    {
+        foreach (var action in actions)
+        {
+            var task = new Task(action);
+           // task.Start();
 
+            task.Wait();
+        }
+    }
 
     public static async Task DoSomethingAsync()
     {
