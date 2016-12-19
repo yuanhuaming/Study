@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类型转换1", "类型转换1\类型转换1.csproj", "{2563FA15-9FDC-4EC1-8FEA-29BF826CE589}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据结构", "数据结构\数据结构.csproj", "{5B9B12E7-E9E8-410E-A577-DABEDDBA14F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle", "Castle\Castle.csproj", "{98F0E3BF-67FD-43E7-80CC-D961682F8918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "静态实战", "静态实战\静态实战.csproj", "{0DA65168-45C2-462D-915C-465A6C75CE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0324019E-8863-4A32-BB93-051950A66DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{98F0E3BF-67FD-43E7-80CC-D961682F8918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F0E3BF-67FD-43E7-80CC-D961682F8918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F0E3BF-67FD-43E7-80CC-D961682F8918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA65168-45C2-462D-915C-465A6C75CE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA65168-45C2-462D-915C-465A6C75CE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA65168-45C2-462D-915C-465A6C75CE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA65168-45C2-462D-915C-465A6C75CE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0324019E-8863-4A32-BB93-051950A66DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0324019E-8863-4A32-BB93-051950A66DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0324019E-8863-4A32-BB93-051950A66DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0324019E-8863-4A32-BB93-051950A66DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

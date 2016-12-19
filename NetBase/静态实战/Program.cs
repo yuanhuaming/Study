@@ -13,10 +13,10 @@ namespace 类型转换1
 
         static void Main(string[] args)
         {
-            foreach (var VARIABLE in Task)
-            {
-                task
-            }
+            //foreach (var VARIABLE in Task)
+            //{
+            //    task
+            //}
 
         }
 
