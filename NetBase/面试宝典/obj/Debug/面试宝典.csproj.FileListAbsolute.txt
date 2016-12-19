@@ -1,6 +1,0 @@
-D:\project\Study\NetBase\面试宝典\obj\Debug\面试宝典.csprojResolveAssemblyReference.cache
-E:\src\Study\NetBase\面试宝典\bin\Debug\面试宝典.exe.config
-E:\src\Study\NetBase\面试宝典\bin\Debug\面试宝典.exe
-E:\src\Study\NetBase\面试宝典\bin\Debug\面试宝典.pdb
-E:\src\Study\NetBase\面试宝典\obj\Debug\面试宝典.exe
-E:\src\Study\NetBase\面试宝典\obj\Debug\面试宝典.pdb
