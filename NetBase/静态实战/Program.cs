@@ -17,7 +17,9 @@ namespace 类型转换1
             //{
             //    task
             //}
-
+       
+            Console.WriteLine(DateTime.Now.AddDays(2));
+            Console.ReadKey();
         }
 
         private static string  contents="hello world!!!!   ";
