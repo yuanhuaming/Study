@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Builder.dll
-bin\Debug\Pattern.Builder.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Builder.dll
-obj\Debug\Pattern.Builder.pdb
