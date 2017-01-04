@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Bridge.dll
-bin\Debug\Pattern.Bridge.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Bridge.dll
-obj\Debug\Pattern.Bridge.pdb

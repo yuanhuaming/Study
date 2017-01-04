@@ -1,7 +1,0 @@
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\bin\Debug\Pattern.Proxy.XML
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\bin\Debug\Pattern.Proxy.dll
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\bin\Debug\Pattern.Proxy.pdb
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\obj\Debug\Pattern.Proxy.dll
-C:\Documents and Settings\Administrator\桌面\Pattern\Proxy\obj\Debug\Pattern.Proxy.pdb
-E:\project\Pattern\Proxy\obj\Debug\ResolveAssemblyReference.cache

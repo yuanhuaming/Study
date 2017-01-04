@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Composite.dll
-bin\Debug\Pattern.Composite.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Composite.dll
-obj\Debug\Pattern.Composite.pdb

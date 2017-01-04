@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Iterator.dll
-bin\Debug\Pattern.Iterator.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Iterator.dll
-obj\Debug\Pattern.Iterator.pdb

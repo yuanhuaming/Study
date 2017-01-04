@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Flyweight.dll
-bin\Debug\Pattern.Flyweight.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Flyweight.dll
-obj\Debug\Pattern.Flyweight.pdb

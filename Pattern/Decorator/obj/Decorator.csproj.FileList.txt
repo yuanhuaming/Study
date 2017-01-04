@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Decorator.dll
-bin\Debug\Pattern.Decorator.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Decorator.dll
-obj\Debug\Pattern.Decorator.pdb

@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Proxy.dll
-bin\Debug\Pattern.Proxy.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Proxy.dll
-obj\Debug\Pattern.Proxy.pdb

@@ -1,5 +1,0 @@
-bin\Debug\Pattern.TemplateMethod.dll
-bin\Debug\Pattern.TemplateMethod.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.TemplateMethod.dll
-obj\Debug\Pattern.TemplateMethod.pdb

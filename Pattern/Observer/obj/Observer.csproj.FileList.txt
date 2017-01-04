@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Observer.dll
-bin\Debug\Pattern.Observer.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Observer.dll
-obj\Debug\Pattern.Observer.pdb

@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Prototype.dll
-bin\Debug\Pattern.Prototype.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Prototype.dll
-obj\Debug\Pattern.Prototype.pdb

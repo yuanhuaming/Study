@@ -1,5 +1,0 @@
-bin\Debug\Pattern.Visitor.dll
-bin\Debug\Pattern.Visitor.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.Visitor.dll
-obj\Debug\Pattern.Visitor.pdb

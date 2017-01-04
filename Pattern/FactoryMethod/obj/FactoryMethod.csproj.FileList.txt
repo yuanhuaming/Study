@@ -1,5 +1,0 @@
-bin\Debug\Pattern.FactoryMethod.dll
-bin\Debug\Pattern.FactoryMethod.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Pattern.FactoryMethod.dll
-obj\Debug\Pattern.FactoryMethod.pdb
