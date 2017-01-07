@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "静态实战", "静态实�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0324019E-8863-4A32-BB93-051950A66DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsDemo", "MetricsDemo\MetricsDemo.csproj", "{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{0324019E-8863-4A32-BB93-051950A66DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0324019E-8863-4A32-BB93-051950A66DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0324019E-8863-4A32-BB93-051950A66DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
