@@ -10,8 +10,9 @@ namespace UnitTest
     [TestClass]
     public class ThreadSafe
     {
-
+ 
         private  static  List<int> _staticList = null;
+
         private   readonly object  _lockObj = "";
 
         public ThreadSafe()
@@ -23,6 +24,7 @@ namespace UnitTest
         }
         #region List
         [TestMethod]
+
         public void ListAddIsSafe()
         {
             List<int> intList = new List<int>();
@@ -61,6 +63,19 @@ namespace UnitTest
         }
         #endregion
 
+        [TestMethod]
+        public void StaicListIsSafe()
+        {
+
+            var result = Parallel.ForEach(Enumerable.Range(1, 10000), (val) =>
+            {
+                    _staticList.Add(val);
+            });
+            if (result.IsCompleted)
+            {
+                Console.WriteLine("staticList.Count():" + _staticList.Count);
+            }
+        }
 
         [TestMethod]
         public void ConcurrentListIsSafe()

@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Data
+namespace Common
 {
    public   class Lists:IEnumerable<UserInfo>
    {
@@ -17,10 +13,15 @@ namespace Data
            {
                new UserInfo(){Name = "aaa",Age = 19},
                new UserInfo(){Name = "bbb",Age = 22},
+               new UserInfo(){Name = "eee",Age = 22},
+               new UserInfo(){Name = "fff",Age = 11},
+               new UserInfo(){Name = "ggg",Age = 53},
+               new UserInfo(){Name = "rrr",Age = 12},
+               new UserInfo(){Name = "ppp",Age = 17},
+               new UserInfo(){Name = "zzz",Age = 22},
                new UserInfo(){Name = "ccc",Age = 32}
            };
            return list; 
-
        }
 
        private UserInfo[] list = null;
