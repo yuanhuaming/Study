@@ -45,6 +45,7 @@
     <Compile Include="Keyword1.cs" />
     <Compile Include="Keyword2.cs" />
     <Compile Include="Keyword3.cs" />
+    <Compile Include="NET执行顺序.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
