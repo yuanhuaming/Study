@@ -40,6 +40,14 @@
       <HintPath>..\packages\JetBrains.dotMemoryUnit.2.3.20160517.113140\lib\dotMemory.Unit.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="fastjson, Version=2.1.0.0, Culture=neutral, PublicKeyToken=6b75a806b86095cd, processorArchitecture=MSIL">
+      <HintPath>..\packages\fastJSON.2.1.22\lib\net40\fastjson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
   </ItemGroup>
@@ -60,6 +68,7 @@
   <ItemGroup>
     <Compile Include="LinqTest.cs" />
     <Compile Include="TEMPTest.cs" />
+    <Compile Include="SerializeTest.cs" />
     <Compile Include="测试并行性能.cs" />
     <Compile Include="算法.cs" />
     <Compile Include="线程安全.cs" />

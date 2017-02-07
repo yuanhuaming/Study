@@ -108,10 +108,11 @@ namespace Common
         }
     }
 
-
+    [Serializable]
     public class UserInfo
     {
         public string Name { get; set; }
         public int Age { get; set; }
+        public DateTime CreateTime { get; set; }
     }
 }
