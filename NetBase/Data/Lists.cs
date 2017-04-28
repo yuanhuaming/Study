@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 namespace Common
 {
@@ -107,11 +108,11 @@ namespace Common
             }
         }
     }
-
+    [StructLayout(LayoutKind.Sequential)]
     [Serializable]
-    public class UserInfo
+    public struct UserInfo
     {
-        public string Name { get; set; }
+       public string Name { get; set; }
         public int Age { get; set; }
         public DateTime CreateTime { get; set; }
     }

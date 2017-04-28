@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "值类型和引用类型", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装箱拆箱", "装箱拆箱\装箱拆箱.csproj", "{F766FF7D-4D77-44ED-B809-C94FD2B550FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp6特性", "CSharp6特性\CSharp6特性.csproj", "{3EB4B381-7405-4E44-89E6-D439274EBF70}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "动态语言CSharp", "动态语言CSharp\动态语言CSharp.csproj", "{2FA1E52E-4304-4E99-B3A3-56123AB77E8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDemo", "TaskDemo\TaskDemo.csproj", "{DDD919DE-DFB7-495E-83CD-A4BA1E2929FB}"
@@ -28,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsDemo", "MetricsDemo\MetricsDemo.csproj", "{8A7C0041-A9CB-4B16-B39A-2046A77FD5FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{57A03DCB-CED7-4468-A708-64F857955A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代码片段", "代码片段\代码片段.csproj", "{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +63,6 @@ Global
 		{F766FF7D-4D77-44ED-B809-C94FD2B550FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F766FF7D-4D77-44ED-B809-C94FD2B550FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F766FF7D-4D77-44ED-B809-C94FD2B550FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EB4B381-7405-4E44-89E6-D439274EBF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EB4B381-7405-4E44-89E6-D439274EBF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EB4B381-7405-4E44-89E6-D439274EBF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EB4B381-7405-4E44-89E6-D439274EBF70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FA1E52E-4304-4E99-B3A3-56123AB77E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FA1E52E-4304-4E99-B3A3-56123AB77E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA1E52E-4304-4E99-B3A3-56123AB77E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{57A03DCB-CED7-4468-A708-64F857955A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A03DCB-CED7-4468-A708-64F857955A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A03DCB-CED7-4468-A708-64F857955A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
