@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.AccessControl;
 using System.Threading;
 using System.Threading.Tasks;
-using Common;
+ 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest
@@ -109,18 +109,18 @@ namespace UnitTest
 
             ConcurrentDictionary<int, int> cdic = new ConcurrentDictionary<int, int>();
 
-            CodeTimer.Time("ConcurrentDictionaryTest",1, () =>
-            {
+            //CodeTimer.Time("ConcurrentDictionaryTest",1, () =>
+            //{
 
-                var result = Parallel.ForEach(Enumerable.Range(1, 10000000), (val) =>
-                {
-                    cdic.GetOrAdd(val, val * new Random(10000).Next());
-                });
-                if (result.IsCompleted)
-                {
-                    Console.WriteLine("ConcurrentDictionary.Count():" + cdic.Count);
-                }
-            },true);
+            //    var result = Parallel.ForEach(Enumerable.Range(1, 10000000), (val) =>
+            //    {
+            //        cdic.GetOrAdd(val, val * new Random(10000).Next());
+            //    });
+            //    if (result.IsCompleted)
+            //    {
+            //        Console.WriteLine("ConcurrentDictionary.Count():" + cdic.Count);
+            //    }
+            //},true);
 
         
         }

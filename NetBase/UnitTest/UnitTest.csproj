@@ -66,17 +66,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="LinqTest.cs" />
-    <Compile Include="TEMPTest.cs" />
-    <Compile Include="SerializeTest.cs" />
-    <Compile Include="异常捕获性能测试.cs" />
-    <Compile Include="测试并行性能.cs" />
-    <Compile Include="算法.cs" />
     <Compile Include="线程安全.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data\Common.csproj">

@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类型转换1", "类型转换1\类型转换1.csproj", "{2563FA15-9FDC-4EC1-8FEA-29BF826CE589}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csproj", "{C45B02F9-C7D0-4B29-A1F8-88CD7C4E1518}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Data\Common.csproj", "{DB74C6EF-442C-434D-B8F3-EFA8C4EEE859}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "关键字使用和执行顺序", "关键字使用和执行顺序\关键字使用和执行顺序.csproj", "{FF9FC6D3-6D55-4AFA-8B9C-69500FC7CDAC}"
 EndProject
@@ -29,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代码片段", "代码片段\代码片段.csproj", "{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleDemo", "CastelDemo\CastleDemo.csproj", "{9C4A6C9D-382B-417C-9B2C-6F7BCEFA9B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,10 +43,6 @@ Global
 		{C45B02F9-C7D0-4B29-A1F8-88CD7C4E1518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C45B02F9-C7D0-4B29-A1F8-88CD7C4E1518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C45B02F9-C7D0-4B29-A1F8-88CD7C4E1518}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB74C6EF-442C-434D-B8F3-EFA8C4EEE859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB74C6EF-442C-434D-B8F3-EFA8C4EEE859}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB74C6EF-442C-434D-B8F3-EFA8C4EEE859}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB74C6EF-442C-434D-B8F3-EFA8C4EEE859}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF9FC6D3-6D55-4AFA-8B9C-69500FC7CDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF9FC6D3-6D55-4AFA-8B9C-69500FC7CDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF9FC6D3-6D55-4AFA-8B9C-69500FC7CDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE4BF9C-5D1E-4E44-ACD1-EA8560A03D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4A6C9D-382B-417C-9B2C-6F7BCEFA9B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4A6C9D-382B-417C-9B2C-6F7BCEFA9B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4A6C9D-382B-417C-9B2C-6F7BCEFA9B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4A6C9D-382B-417C-9B2C-6F7BCEFA9B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
