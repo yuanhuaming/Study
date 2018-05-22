@@ -15,7 +15,7 @@ class Employee:
    def displayEmployee(self):
       print ("Name : ", self.name,  ", Salary: ", self.salary)
 
-
+       
 
 # "创建 Employee 类的第一个对象"
 emp1 = Employee("Zara", 2000)
