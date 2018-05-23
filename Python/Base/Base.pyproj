@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d215037-3d68-4781-b875-79672c7707b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Employee.py</StartupFile>
+    <StartupFile>循环.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Employee.py" />
+    <Compile Include="string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sort.py" />
+    <Compile Include="循环.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="集合.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="继承.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
