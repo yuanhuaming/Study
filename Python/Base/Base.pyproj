@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d215037-3d68-4781-b875-79672c7707b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>循环.py</StartupFile>
+    <StartupFile>spider.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Base</Name>
     <RootNamespace>Base</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +22,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="classdefine.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Employee.py" />
-    <Compile Include="string.py">
+    <Compile Include="Base.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spider.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="strings.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sort.py" />
@@ -35,6 +48,9 @@
     <Compile Include="继承.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
