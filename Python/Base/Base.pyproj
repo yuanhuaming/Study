@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d215037-3d68-4781-b875-79672c7707b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>spider.py</StartupFile>
+    <StartupFile>常用函数\tuples.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,24 +25,36 @@
     <Compile Include="classdefine.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Employee.py" />
+    <Compile Include="demo.py" />
     <Compile Include="Base.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="module1.py">
+    <Compile Include="matplotlib\demo.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="spider.py">
+    <Compile Include="spiders\spider.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="strings.py">
+    <Compile Include="常用函数\dics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用函数\lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用函数\sets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用函数\strings.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sort.py" />
+    <Compile Include="常用函数\tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="循环.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="集合.py">
+    <Compile Include="常用函数\集合.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="继承.py">
@@ -51,6 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="C:\src\Study\Python\Base\matplotlib\" />
+    <Folder Include="matplotlib\" />
+    <Folder Include="C:\src\Study\Python\Base\常用函数\" />
+    <Folder Include="spiders\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
