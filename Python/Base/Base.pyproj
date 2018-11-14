@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d215037-3d68-4781-b875-79672c7707b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>gui\module1.py</StartupFile>
+    <StartupFile>常用函数\高级特性.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,10 +36,123 @@
     <Compile Include="matplotlib\demo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="others\samples\advance\do_generator.py" />
+    <Compile Include="others\samples\advance\do_iter.py" />
+    <Compile Include="others\samples\advance\do_listcompr.py" />
+    <Compile Include="others\samples\advance\do_slice.py" />
+    <Compile Include="others\samples\advance\do_yield.py" />
+    <Compile Include="others\samples\async\aio_web.py" />
+    <Compile Include="others\samples\async\async_hello.py" />
+    <Compile Include="others\samples\async\async_hello2.py" />
+    <Compile Include="others\samples\async\async_wget.py" />
+    <Compile Include="others\samples\async\async_wget2.py" />
+    <Compile Include="others\samples\async\coroutine.py" />
+    <Compile Include="others\samples\basic\do_for.py" />
+    <Compile Include="others\samples\basic\do_if.py" />
+    <Compile Include="others\samples\basic\do_input.py" />
+    <Compile Include="others\samples\basic\do_print.py" />
+    <Compile Include="others\samples\basic\do_while.py" />
+    <Compile Include="others\samples\basic\hello.py" />
+    <Compile Include="others\samples\basic\the_dict.py" />
+    <Compile Include="others\samples\basic\the_list.py" />
+    <Compile Include="others\samples\basic\the_set.py" />
+    <Compile Include="others\samples\basic\the_string.py" />
+    <Compile Include="others\samples\basic\the_tuple.py" />
+    <Compile Include="others\samples\commonlib\check_bmp.py" />
+    <Compile Include="others\samples\commonlib\do_base64.py" />
+    <Compile Include="others\samples\commonlib\use_chainmap.py" />
+    <Compile Include="others\samples\commonlib\use_collections.py" />
+    <Compile Include="others\samples\commonlib\use_datetime.py" />
+    <Compile Include="others\samples\commonlib\use_hashlib.py" />
+    <Compile Include="others\samples\commonlib\use_htmlparser.py" />
+    <Compile Include="others\samples\commonlib\use_itertools.py" />
+    <Compile Include="others\samples\commonlib\use_sax.py" />
+    <Compile Include="others\samples\commonlib\use_urllib.py" />
+    <Compile Include="others\samples\context\do_closing.py" />
+    <Compile Include="others\samples\context\do_suppress.py" />
+    <Compile Include="others\samples\context\do_with.py" />
+    <Compile Include="others\samples\db\do_mysql.py" />
+    <Compile Include="others\samples\db\do_sqlalchemy.py" />
+    <Compile Include="others\samples\db\do_sqlite.py" />
+    <Compile Include="others\samples\debug\do_assert.py" />
+    <Compile Include="others\samples\debug\do_logging.py" />
+    <Compile Include="others\samples\debug\do_pdb.py" />
+    <Compile Include="others\samples\debug\do_try.py" />
+    <Compile Include="others\samples\debug\err.py" />
+    <Compile Include="others\samples\debug\err_logging.py" />
+    <Compile Include="others\samples\debug\err_raise.py" />
+    <Compile Include="others\samples\debug\err_reraise.py" />
+    <Compile Include="others\samples\debug\mydict.py" />
+    <Compile Include="others\samples\debug\mydict2.py" />
+    <Compile Include="others\samples\debug\mydict_test.py" />
+    <Compile Include="others\samples\functional\decorator.py" />
+    <Compile Include="others\samples\functional\do_filter.py" />
+    <Compile Include="others\samples\functional\do_map.py" />
+    <Compile Include="others\samples\functional\do_partial.py" />
+    <Compile Include="others\samples\functional\do_reduce.py" />
+    <Compile Include="others\samples\functional\do_sorted.py" />
+    <Compile Include="others\samples\functional\prime_numbers.py" />
+    <Compile Include="others\samples\functional\return_func.py" />
+    <Compile Include="others\samples\function\call_func.py" />
+    <Compile Include="others\samples\function\def_func.py" />
+    <Compile Include="others\samples\function\kw_args.py" />
+    <Compile Include="others\samples\function\recur.py" />
+    <Compile Include="others\samples\function\var_args.py" />
+    <Compile Include="others\samples\gui\hello_gui.py" />
+    <Compile Include="others\samples\io\do_bytesio.py" />
+    <Compile Include="others\samples\io\do_dir.py" />
+    <Compile Include="others\samples\io\do_stringio.py" />
+    <Compile Include="others\samples\io\use_json.py" />
+    <Compile Include="others\samples\io\use_pickle.py" />
+    <Compile Include="others\samples\io\with_file.py" />
+    <Compile Include="others\samples\mail\fetch_mail.py" />
+    <Compile Include="others\samples\mail\send_mail.py" />
+    <Compile Include="others\samples\module\hello.py" />
+    <Compile Include="others\samples\multitask\do_folk.py" />
+    <Compile Include="others\samples\multitask\do_lock.py" />
+    <Compile Include="others\samples\multitask\do_queue.py" />
+    <Compile Include="others\samples\multitask\do_subprocess.py" />
+    <Compile Include="others\samples\multitask\multi_processing.py" />
+    <Compile Include="others\samples\multitask\multi_threading.py" />
+    <Compile Include="others\samples\multitask\pooled_processing.py" />
+    <Compile Include="others\samples\multitask\task_master.py" />
+    <Compile Include="others\samples\multitask\task_worker.py" />
+    <Compile Include="others\samples\multitask\use_threadlocal.py" />
+    <Compile Include="others\samples\oop_advance\create_class_on_the_fly.py" />
+    <Compile Include="others\samples\oop_advance\orm.py" />
+    <Compile Include="others\samples\oop_advance\special_call.py" />
+    <Compile Include="others\samples\oop_advance\special_getattr.py" />
+    <Compile Include="others\samples\oop_advance\special_getitem.py" />
+    <Compile Include="others\samples\oop_advance\special_iter.py" />
+    <Compile Include="others\samples\oop_advance\special_str.py" />
+    <Compile Include="others\samples\oop_advance\use_enum.py" />
+    <Compile Include="others\samples\oop_advance\use_metaclass.py" />
+    <Compile Include="others\samples\oop_advance\use_property.py" />
+    <Compile Include="others\samples\oop_advance\use_slots.py" />
+    <Compile Include="others\samples\oop_basic\animals.py" />
+    <Compile Include="others\samples\oop_basic\attrs.py" />
+    <Compile Include="others\samples\oop_basic\get_instance.py" />
+    <Compile Include="others\samples\oop_basic\get_type.py" />
+    <Compile Include="others\samples\oop_basic\protected_student.py" />
+    <Compile Include="others\samples\oop_basic\student.py" />
+    <Compile Include="others\samples\packages\pil\use_pil_blur.py" />
+    <Compile Include="others\samples\packages\pil\use_pil_draw.py" />
+    <Compile Include="others\samples\packages\pil\use_pil_resize.py" />
+    <Compile Include="others\samples\regex\regex.py" />
+    <Compile Include="others\samples\socket\do_tcp.py" />
+    <Compile Include="others\samples\socket\udp_client.py" />
+    <Compile Include="others\samples\socket\udp_server.py" />
+    <Compile Include="others\samples\test\dict_doctest.py" />
+    <Compile Include="others\samples\test\dict_unittest.py" />
+    <Compile Include="others\samples\web\do_flask.py" />
+    <Compile Include="others\samples\web\do_wsgi.py" />
+    <Compile Include="others\samples\web\hello.py" />
+    <Compile Include="others\samples\web\mvc\app.py" />
+    <Compile Include="others\teach\learning.py" />
     <Compile Include="spiders\spider.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="常用函数\dics.py">
+    <Compile Include="常用函数\dicAndset.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="常用函数\lists.py">
@@ -48,7 +161,7 @@
     <Compile Include="biz\MysqlHelper.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="常用函数\sets.py">
+    <Compile Include="常用函数\prints.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="常用函数\strings.py">
@@ -58,10 +171,16 @@
     <Compile Include="常用函数\tuples.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="循环.py">
+    <Compile Include="常用函数\for.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用函数\类型转换.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="常用函数\集合.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用函数\高级特性.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="继承.py">
@@ -77,8 +196,44 @@
     <Folder Include="C:\src\Study\Python\Base\常用函数\" />
     <Folder Include="biz\" />
     <Folder Include="gui\" />
+    <Folder Include="others\" />
+    <Folder Include="others\samples\" />
+    <Folder Include="others\samples\advance\" />
+    <Folder Include="others\samples\async\" />
+    <Folder Include="others\samples\basic\" />
+    <Folder Include="others\samples\commonlib\" />
+    <Folder Include="others\samples\context\" />
+    <Folder Include="others\samples\db\" />
+    <Folder Include="others\samples\debug\" />
+    <Folder Include="others\samples\functional\" />
+    <Folder Include="others\samples\function\" />
+    <Folder Include="others\samples\gui\" />
+    <Folder Include="others\samples\io\" />
+    <Folder Include="others\samples\mail\" />
+    <Folder Include="others\samples\module\" />
+    <Folder Include="others\samples\multitask\" />
+    <Folder Include="others\samples\oop_advance\" />
+    <Folder Include="others\samples\oop_basic\" />
+    <Folder Include="others\samples\packages\" />
+    <Folder Include="others\samples\packages\pil\" />
+    <Folder Include="others\samples\regex\" />
+    <Folder Include="others\samples\socket\" />
+    <Folder Include="others\samples\test\" />
+    <Folder Include="others\samples\web\" />
+    <Folder Include="others\samples\web\mvc\" />
+    <Folder Include="others\samples\web\mvc\templates\" />
+    <Folder Include="others\teach\" />
     <Folder Include="spiders\" />
     <Folder Include="常用函数\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="others\samples\packages\pil\README" />
+    <Content Include="others\samples\packages\pil\test.jpg" />
+    <Content Include="others\samples\web\mvc\templates\form.html" />
+    <Content Include="others\samples\web\mvc\templates\home.html" />
+    <Content Include="others\samples\web\mvc\templates\signin-ok.html" />
+    <Content Include="others\teach\README.md" />
+    <Content Include="others\teach\run-learning.py.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
