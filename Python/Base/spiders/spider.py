@@ -1,5 +1,6 @@
 
-import requests 
+import urllib.request 
+ 
 from lxml import html
 
 def get_page_number(num):

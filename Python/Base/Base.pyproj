@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3d215037-3d68-4781-b875-79672c7707b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>常用函数\高级特性.py</StartupFile>
+    <StartupFile>demo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

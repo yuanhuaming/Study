@@ -25,7 +25,9 @@ def move(x, y, step, angle=0):
 #*args是可变参数，args接收的是一个tuple；
 #**kw是关键字参数，kw接收的是一个dict。
 # 可变参数
+ 
 def sum(*numbers):
+
     result=0;
     for x in numbers:
        result = result+x
@@ -38,11 +40,15 @@ def power(x,n):
 print(sum(1,2))
 
 print(power(1,2))
-
-
+ 
 
 print(my_abs(-11))
 
 x, y = move(100, 100, 60, math.pi / 6)
 print(x,y)
 
+result=0
+while result<20:
+    tmp=input("请输入数字")
+    result+=int(tmp)
+ 
