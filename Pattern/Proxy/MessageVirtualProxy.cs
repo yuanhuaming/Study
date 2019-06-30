@@ -15,8 +15,9 @@ namespace Pattern.Proxy
             if (_sqlMessage==null)
             {
                 _sqlMessage = new SqlMessage();
-                _sqlMessage.Get();
+                return _sqlMessage.Get();
             }
+            return null;
         }
 
         public bool Insert(MessageModel mm)
@@ -24,8 +25,9 @@ namespace Pattern.Proxy
             if (_sqlMessage == null)
             {
                 _sqlMessage = new SqlMessage();
-                _sqlMessage.Insert(mm);
+                 _sqlMessage.Insert(mm);
             }
+            return true;
         }
 
         #endregion

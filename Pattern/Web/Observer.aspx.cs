@@ -37,6 +37,6 @@ public partial class Observer : System.Web.UI.Page
 
     private void Model_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
     {
-            e.PropertyName
+        //    e.PropertyName
     }
 }
